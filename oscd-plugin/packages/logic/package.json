@@ -1,0 +1,14 @@
+{
+    "name": "@openscd/logic",
+    "private": true,
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "workspaces": [
+      "packages/*"
+    ],
+    "dependencies": {
+    }
+  }
+  

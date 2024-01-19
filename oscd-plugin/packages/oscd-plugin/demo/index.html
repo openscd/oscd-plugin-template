@@ -17,10 +17,11 @@
 
     window.customElements.define('oscd-plugin', OscdPlugin);
 
-    const header = 'Hello OSCD!';
+    const header = 'Hello owc World!';
     render(
       html`
         <oscd-plugin .header=${header}>
+          some light-dom
         </oscd-plugin>
       `,
       document.querySelector('#demo')

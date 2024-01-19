@@ -1,0 +1,34 @@
+{
+  "targetDefaults": {
+    "build": {
+      "dependsOn": []
+    },
+    "analyze": {
+      "dependsOn": []
+    },
+    "start": {
+      "dependsOn": []
+    },
+    "prepublish": {
+      "dependsOn": []
+    },
+    "lint": {
+      "dependsOn": []
+    },
+    "format": {
+      "dependsOn": []
+    },
+    "test": {
+      "dependsOn": []
+    },
+    "test:watch": {
+      "dependsOn": []
+    },
+    "storybook": {
+      "dependsOn": []
+    },
+    "storybook:build": {
+      "dependsOn": []
+    }
+  }
+}

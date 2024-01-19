@@ -1,0 +1,1 @@
+{"version":3,"file":"greet.js","sourceRoot":"","sources":["../src/greet.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,KAAK,GAAiB,GAAW,EAAE;IAC9C,OAAO,OAAO,CAAC;AACjB,CAAC,CAAC","sourcesContent":["export const greet: () => string = (): string => {\n  return \"Hello\";\n};\n"]}
