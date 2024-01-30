@@ -1,7 +1,7 @@
 import { html, css, LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 
-export class OscdPlugin extends LitElement {
+export default class OscdPlugin extends LitElement {
   static styles = css`
     :host {
       display: block;
