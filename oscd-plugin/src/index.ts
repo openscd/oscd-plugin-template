@@ -1,1 +1,1 @@
-export { OscdPlugin } from './OscdPlugin.js';
+export OscdPlugin from './OscdPlugin.js';
