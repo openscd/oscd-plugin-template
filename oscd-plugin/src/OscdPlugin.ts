@@ -10,18 +10,20 @@ export default class OscdPlugin extends LitElement {
     }
   `;
 
-  @property({ type: String }) header = 'Hey there';
+  @property({ type: Object }) 
+  doc!: XMLDocument;
 
-  @property({ type: Number }) counter = 5;
+  @property({ type: Number })
+  editCount = -1;
 
-  __increment() {
-    this.counter += 1;
-  }
+  @property({ type: String })
+  locale!: string;
 
   render() {
     return html`
-      <h2>${this.header} Nr. ${this.counter}!</h2>
-      <button @click=${this.__increment}>increment</button>
+      <div>
+        My plugin works!
+      </div>
     `;
   }
 }
